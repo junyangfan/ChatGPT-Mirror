@@ -72,12 +72,15 @@
             <t-link :underline="false" style="color: red" @click="goFree">免费体验</t-link>
           </div>
           <div v-else>
-            没有帐户？
+            没有帐户？关注微信公众号：
+            <span style="color: red">IT知识空间</span>，回复关键字：<span style="color: red">ChatGPT</span> 获取免费账号
             <!-- <t-link :underline="false" href="/admin/#/register" style="color: #10a37f">注册</t-link> or -->
-            <t-link :underline="false" style="color: red" @click="goFree">免费体验</t-link>
-            <div>
-              <div style="font-size: 12px; color: red">提示：免费账户一分钟限制发送一条消息</div>
-              <div>建议前往 <a href="https://shop.fjy.zone" target="_blank">JY小店</a> 购买账号</div>
+            <!-- <t-link :underline="false" style="color: red" @click="goFree">免费体验</t-link> -->
+            <div
+              style="border: 1px solid var(--td-component-border); padding: 5px 0; border-radius: 4px; margin-top: 10px"
+            >
+              <div style="color: red">提示：免费账号一分钟限制发送一条消息</div>
+              <div>建议前往 <a href="https://shop.fjy.zone" target="_blank">JY小店</a> 购买账号解除限制</div>
             </div>
           </div>
         </div>
