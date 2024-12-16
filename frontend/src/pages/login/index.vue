@@ -49,12 +49,12 @@
                   placeholder="ChatGPT Cookies Token"
                   size="large"
                 ></t-textarea>
-                <span style="font-size: 12px; color: #888">
+                <!-- <span style="font-size: 12px; color: #888">
                   Session Token 获取说明：
                   <t-link target="_blank" theme="primary" size="small" :href="ChatgptTokenTutorialUrl">手动获取</t-link>
-                  <!-- or
-                  <t-link target="_blank" theme="primary" size="small" :href="ChatgptTokenAuthUrl">自动获取</t-link> -->
-                </span>
+                  or
+                  <t-link target="_blank" theme="primary" size="small" :href="ChatgptTokenAuthUrl">自动获取</t-link>
+                </span> -->
               </div>
             </t-form-item>
 
@@ -73,7 +73,7 @@
           </div>
           <div v-else>
             没有帐户？
-            <t-link :underline="false" href="/admin/#/register" style="color: #10a37f">注册</t-link> or
+            <!-- <t-link :underline="false" href="/admin/#/register" style="color: #10a37f">注册</t-link> or -->
             <t-link :underline="false" style="color: red" @click="goFree">免费体验</t-link>
           </div>
         </div>

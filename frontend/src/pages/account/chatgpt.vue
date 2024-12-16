@@ -85,13 +85,13 @@
                   Access Token</t-link
                 >：有效期10天
               </span>
-              <span style="font-size: 12px; color: #888">
+              <!-- <span style="font-size: 12px; color: #888">
                 <t-link target="_blank" theme="primary" size="small" :href="ChatgptTokenTutorialUrl"
                   >Session Token</t-link
                 >：有效期30天
-                <!-- or
-                <t-link target="_blank" theme="primary" size="small" :href="ChatgptTokenAuthUrl">自动获取</t-link> -->
-              </span>
+                or
+                <t-link target="_blank" theme="primary" size="small" :href="ChatgptTokenAuthUrl">自动获取</t-link>
+              </span> -->
             </div>
           </t-form-item>
         </t-form>
