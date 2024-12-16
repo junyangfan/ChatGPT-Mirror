@@ -4,7 +4,7 @@
       <div style="width: 400px; float: left">
         <div v-if="cfg.notice" v-html="cfg.notice"></div>
       </div>
-      <div v-if="cfg.show_github" style="margin: 12px 20px">
+      <!-- <div v-if="cfg.show_github" style="margin: 12px 20px">
         <a href="https://github.com/dairoot/ChatGPT-Mirror" target="_blank" style="float: right">
           <svg
             width="32"
@@ -23,7 +23,7 @@
             ></path>
           </svg>
         </a>
-      </div>
+      </div> -->
     </div>
     <div class="login-container">
       <t-card class="login-card">
@@ -75,6 +75,10 @@
             没有帐户？
             <!-- <t-link :underline="false" href="/admin/#/register" style="color: #10a37f">注册</t-link> or -->
             <t-link :underline="false" style="color: red" @click="goFree">免费体验</t-link>
+            <div>
+              <div style="font-size: 12px; color: red">提示：免费账户一分钟限制发送一条消息</div>
+              <div>建议前往 <a href="https://shop.fjy.zone" target="_blank">JY小店</a> 购买账号</div>
+            </div>
           </div>
         </div>
       </t-card>
