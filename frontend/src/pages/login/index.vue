@@ -105,7 +105,7 @@ const loginForm = reactive({
 });
 
 onMounted(async () => {
-  await getVersionCfg();
+  // await getVersionCfg();
 });
 
 const rules: Record<string, FormRule[]> = {
